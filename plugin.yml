@@ -1,0 +1,15 @@
+name: UHC
+version: 0.1
+main: net.theuniverscraft.UHC.UHC
+commands:
+  uhc:
+    usage: /<command> <args>
+    description: settings of uhc (command admin)
+  all:
+    usage: /<command> <message>
+    aliases: [a]
+    description: global channel
+  message:
+    usage: /<command> <player> <message>
+    aliases: [msg]
+    description: send message to a player
